@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./stopwatchBG.jpg");
+    background-size: 120rem 47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stopwatchDiv{
+    display: flex;
+}
+
+.stopwatchDiv > p{
+    padding: 0.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    background-color: rgb(127, 115, 115);
+    border-radius: 9px;
+}
+.stopwatchDiv > p >span{
+    display: flex;
+    font-size: 3rem;
+}
+.btn{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30;
+    margin: 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    border: none;
+}
+.btn:hover{
+    background-color: rgba(231, 103, 12, 0.532);
+    transition: 0.1s;
+}
+.btnchange{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30;
+    margin: 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    background-color: rgba(231, 103, 12, 0.532);
+    
+    border: none;
+}
+.btnchange:hover{
+    transition: 0.1s;
+    background-color: antiquewhite;
+}
+
+.resetbtn{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30;
+    margin: 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    border: none;
+}
+.resetbtn:hover{
+    background-color: rgb(230, 56, 56);
+    transition:0.19s;
+}
